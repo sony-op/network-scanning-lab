@@ -1,0 +1,77 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Scan results (but keep directory)
+scan-results/*
+!scan-results/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Credentials (IMPORTANT!)
+.env
+.env.local
+credentials.txt
+tokens.txt
+passwords.txt
+secrets/
+
+# Package managers
+node_modules/
+package-lock.json
+
+# OS specific
+.AppleDouble
+.LSOverride
+._*
